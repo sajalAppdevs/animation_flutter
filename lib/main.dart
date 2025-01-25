@@ -1,4 +1,4 @@
-import 'package:animation_flutter/animation_view/list_animation.dart';
+import 'package:animation_flutter/animation_view/list_view_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePages(),
+      home: const ListViewAnimation(),
     );
   }
 }
