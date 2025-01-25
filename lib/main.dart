@@ -1,6 +1,5 @@
-import 'package:animation_flutter/animation_view/animated_list.dart';
-import 'package:animation_flutter/animation_view/button_animation_view.dart';
-import 'package:animation_flutter/animation_view/list_view_animation.dart';
+import 'package:animation_flutter/animation_view/fab_animation_view.dart';
+import 'package:animation_flutter/animation_view/swipeable_button.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AnimatedButton(),
+      home: const SwipeableButtonAnimation(),
     );
   }
 }
